@@ -12,8 +12,8 @@ internal class PlaySettings_DoPlaySettingsGlobalControls
     {
         if (MyKeyBindingDefOf.TMB_ToggleAutoDesignatePlantsCutMode.JustPressed)
         {
-            Main.autoDesignatePlantsCutMode = !Main.autoDesignatePlantsCutMode;
-            if (Main.autoDesignatePlantsCutMode)
+            Main.AutoDesignatePlantsCutMode = !Main.AutoDesignatePlantsCutMode;
+            if (Main.AutoDesignatePlantsCutMode)
             {
                 SoundDefOf.Tick_High.PlayOneShotOnCamera();
             }
@@ -28,7 +28,7 @@ internal class PlaySettings_DoPlaySettingsGlobalControls
             return;
         }
 
-        var toggleable = Main.autoDesignatePlantsCutMode;
+        var toggleable = Main.AutoDesignatePlantsCutMode;
         var buttonAutoDesignatePlantsCutMode = MyTex.ButtonAutoDesignatePlantsCutMode;
         var mainKeyLabel = MyKeyBindingDefOf.TMB_ToggleAutoDesignatePlantsCutMode.MainKeyLabel;
         string text = toggleable
@@ -38,6 +38,6 @@ internal class PlaySettings_DoPlaySettingsGlobalControls
             "CutPlantsBeforeBuilding.AutoDesignatePlantsCutModeToggleButton".Translate(mainKeyLabel, text);
         row.ToggleableIcon(ref toggleable, buttonAutoDesignatePlantsCutMode, tooltip,
             SoundDefOf.Mouseover_ButtonToggle);
-        Main.autoDesignatePlantsCutMode = toggleable;
+        Main.AutoDesignatePlantsCutMode = toggleable;
     }
 }

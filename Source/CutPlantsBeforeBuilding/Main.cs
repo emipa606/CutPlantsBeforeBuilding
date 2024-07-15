@@ -7,11 +7,12 @@ namespace CutPlantsBeforeBuilding;
 [StaticConstructorOnStartup]
 internal static class Main
 {
-    public static bool autoDesignatePlantsCutMode;
+    public static bool AutoDesignatePlantsCutMode;
+    public static bool ExtractEnabled;
 
     static Main()
     {
-        autoDesignatePlantsCutMode = true;
+        AutoDesignatePlantsCutMode = CutPlantsBeforeBuildingMod.instance.Settings.DefaultMode;
         new Harmony("com.tammybee.cutplantsbeforebuilding").PatchAll(Assembly.GetExecutingAssembly());
     }
 }

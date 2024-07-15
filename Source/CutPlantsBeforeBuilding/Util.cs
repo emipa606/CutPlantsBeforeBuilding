@@ -40,7 +40,7 @@ internal class Util
 
     public static void DesignatePlant(IntVec3 c, Map map)
     {
-        if (!Main.autoDesignatePlantsCutMode)
+        if (!Main.AutoDesignatePlantsCutMode)
         {
             return;
         }
@@ -64,9 +64,27 @@ internal class Util
     private static void DesignatePlant(Plant plant, Map map)
     {
         map.designationManager.RemoveAllDesignationsOn(plant);
-        map.designationManager.AddDesignation(plant.HarvestableNow
-            ? new Designation(plant, DesignationDefOf.HarvestPlant)
-            : new Designation(plant, DesignationDefOf.CutPlant));
+        if (CutPlantsBeforeBuildingMod.instance.Settings.DigUp && canExtractPlant(plant))
+        {
+            Log.Message($"{plant} can be extracted");
+            map.designationManager.AddDesignation(new Designation(plant, DesignationDefOf.ExtractTree));
+            return;
+        }
+
+        if (plant.HarvestableNow)
+        {
+            Log.Message($"{plant} can be harvested");
+            map.designationManager.AddDesignation(new Designation(plant, DesignationDefOf.HarvestPlant));
+            return;
+        }
+
+        Log.Message($"{plant} can be cut");
+        map.designationManager.AddDesignation(new Designation(plant, DesignationDefOf.CutPlant));
+    }
+
+    private static bool canExtractPlant(Plant plant)
+    {
+        return plant.def.Minifiable && plant.def.plant.IsTree;
     }
 
     private static Plant FindBlockingPlant(IntVec3 c, Map map)

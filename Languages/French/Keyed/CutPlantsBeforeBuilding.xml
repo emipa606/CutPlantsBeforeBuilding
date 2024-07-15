@@ -6,4 +6,9 @@
   <CutPlantsBeforeBuilding.ModeON>sur</CutPlantsBeforeBuilding.ModeON>
   <CutPlantsBeforeBuilding.ModeOFF>éteint</CutPlantsBeforeBuilding.ModeOFF>
   <CutPlantsBeforeBuilding.SpecialTree>Ne marquera pas {0} pour la coupe car il s'agit d'un arbre spécial.</CutPlantsBeforeBuilding.SpecialTree>
+  <CutPlantsBeforeBuilding.CurrentModVersion>Version de mod installée : {0}</CutPlantsBeforeBuilding.CurrentModVersion>
+  <CutPlantsBeforeBuilding.DigUp>Déterrer les plantes si possible</CutPlantsBeforeBuilding.DigUp>
+  <CutPlantsBeforeBuilding.DigUpTT>Au lieu d'être coupées, les plantes seront désignées pour être déterrées si possible.</CutPlantsBeforeBuilding.DigUpTT>
+  <CutPlantsBeforeBuilding.DefaultMode>Plantes coupées par défaut sur</CutPlantsBeforeBuilding.DefaultMode>
+  <CutPlantsBeforeBuilding.DefaultModeTT>L'option "plantes coupées" sera activée à chaque début de partie.</CutPlantsBeforeBuilding.DefaultModeTT>
 </LanguageData>

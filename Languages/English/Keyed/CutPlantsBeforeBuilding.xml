@@ -2,7 +2,12 @@
 <LanguageData>
   <!-- PlaySettings_DoPlaySettingsGlobalControls_Patch -->
   <!-- {0}:Key code of TMB_ToggleAutoDesignatePlantsCutMode(KeyBindingDef) / {1}: -->
-  <CutPlantsBeforeBuilding.AutoDesignatePlantsCutModeToggleButton>toggle auto felling designation mode({0})\ncurrent ： mode {1}</CutPlantsBeforeBuilding.AutoDesignatePlantsCutModeToggleButton>
+  <CutPlantsBeforeBuilding.AutoDesignatePlantsCutModeToggleButton>Toggle auto felling designation mode({0})\nCurrent ： mode {1}</CutPlantsBeforeBuilding.AutoDesignatePlantsCutModeToggleButton>
+  <CutPlantsBeforeBuilding.CurrentModVersion>Installed mod-version: {0}</CutPlantsBeforeBuilding.CurrentModVersion>
+  <CutPlantsBeforeBuilding.DigUp>Dig up plants if possible</CutPlantsBeforeBuilding.DigUp>
+  <CutPlantsBeforeBuilding.DigUpTT>Instead of cutting, plants will be designated to be dug up if possible</CutPlantsBeforeBuilding.DigUpTT>
+  <CutPlantsBeforeBuilding.DefaultMode>Cut plants default on</CutPlantsBeforeBuilding.DefaultMode>
+  <CutPlantsBeforeBuilding.DefaultModeTT>Cut plants-option will be turned on each game start.</CutPlantsBeforeBuilding.DefaultModeTT>
   <CutPlantsBeforeBuilding.ModeON>on</CutPlantsBeforeBuilding.ModeON>
   <CutPlantsBeforeBuilding.ModeOFF>off</CutPlantsBeforeBuilding.ModeOFF>
   <CutPlantsBeforeBuilding.SpecialTree>Will not mark {0} for cutting since its a special tree.</CutPlantsBeforeBuilding.SpecialTree>

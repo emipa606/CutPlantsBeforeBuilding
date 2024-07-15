@@ -1,4 +1,4 @@
-# [Cut plants before building (Continued)]()
+# [Cut plants before building (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3286376165)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -62,3 +62,5 @@ Old versions of the mod can be found on Dropbox.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
 
+
+[![Image](https://img.shields.io/github/v/release/emipa606/CutPlantsBeforeBuilding?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3286376165)
