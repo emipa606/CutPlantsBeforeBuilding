@@ -66,19 +66,16 @@ internal class Util
         map.designationManager.RemoveAllDesignationsOn(plant);
         if (CutPlantsBeforeBuildingMod.instance.Settings.DigUp && canExtractPlant(plant))
         {
-            Log.Message($"{plant} can be extracted");
             map.designationManager.AddDesignation(new Designation(plant, DesignationDefOf.ExtractTree));
             return;
         }
 
         if (plant.HarvestableNow)
         {
-            Log.Message($"{plant} can be harvested");
             map.designationManager.AddDesignation(new Designation(plant, DesignationDefOf.HarvestPlant));
             return;
         }
 
-        Log.Message($"{plant} can be cut");
         map.designationManager.AddDesignation(new Designation(plant, DesignationDefOf.CutPlant));
     }
 

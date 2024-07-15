@@ -13,6 +13,14 @@ Update of 民火s mod https://steamcommunity.com/sharedfiles/filedetails/?id=153
 
 
 
+Added mod-settings
+
+
+- The default on-state
+- Dig up if possible
+
+
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)

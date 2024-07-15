@@ -8,7 +8,6 @@ namespace CutPlantsBeforeBuilding;
 internal static class Main
 {
     public static bool AutoDesignatePlantsCutMode;
-    public static bool ExtractEnabled;
 
     static Main()
     {

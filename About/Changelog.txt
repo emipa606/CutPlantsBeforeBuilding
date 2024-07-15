@@ -1,5 +1,8 @@
 # Changelog for CutPlantsBeforeBuilding
 
+1.5.2 - Removed testing log-spam
+
+
 1.5.1 - Added mod-settings, default on-state and try to dig up if possible
 Used DeepL to update translations for ChineseSimplified, French, German, Japanese, Polish
 

@@ -33,6 +33,12 @@ Update of 民火s mod https://steamcommunity.com/sharedfiles/filedetails/?id=153
 [*] Harbringer tree
 [/list]
 
+Added mod-settings
+[list]
+[*]The default on-state
+[*]Dig up if possible
+[/list]
+
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
@@ -86,5 +92,5 @@ Old versions of the mod can be found on Dropbox.
 [/list]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3286376165][img]https://img.shields.io/github/v/release/emipa606/CutPlantsBeforeBuilding?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.2</modVersion>
 </ModMetaData>
