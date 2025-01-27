@@ -53,6 +53,8 @@ internal class CutPlantsBeforeBuildingMod : Mod
             "CutPlantsBeforeBuilding.DefaultModeTT".Translate());
         listing_Standard.CheckboxLabeled("CutPlantsBeforeBuilding.DigUp".Translate(), ref Settings.DigUp,
             "CutPlantsBeforeBuilding.DigUpTT".Translate());
+        listing_Standard.CheckboxLabeled("CutPlantsBeforeBuilding.OnlyCutters".Translate(), ref Settings.OnlyCutters,
+            "CutPlantsBeforeBuilding.OnlyCuttersTT".Translate());
         if (currentVersion != null)
         {
             listing_Standard.Gap();

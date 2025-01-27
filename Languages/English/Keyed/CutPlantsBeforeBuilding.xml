@@ -11,4 +11,6 @@
   <CutPlantsBeforeBuilding.ModeON>on</CutPlantsBeforeBuilding.ModeON>
   <CutPlantsBeforeBuilding.ModeOFF>off</CutPlantsBeforeBuilding.ModeOFF>
   <CutPlantsBeforeBuilding.SpecialTree>Will not mark {0} for cutting since its a special tree.</CutPlantsBeforeBuilding.SpecialTree>
+  <CutPlantsBeforeBuilding.OnlyCutters>Blocking plants can only be cut if allowed</CutPlantsBeforeBuilding.OnlyCutters>
+  <CutPlantsBeforeBuilding.OnlyCuttersTT>If enabled, only pawns that has plant cutting will cut down blocking plants</CutPlantsBeforeBuilding.OnlyCuttersTT>
 </LanguageData>

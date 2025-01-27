@@ -11,4 +11,6 @@
   <CutPlantsBeforeBuilding.DigUpTT>Anstelle des Schneidens sollen die Pflanzen nach Möglichkeit ausgegraben werden.</CutPlantsBeforeBuilding.DigUpTT>
   <CutPlantsBeforeBuilding.DefaultMode>Geschnittene Pflanzen standardmäßig auf</CutPlantsBeforeBuilding.DefaultMode>
   <CutPlantsBeforeBuilding.DefaultModeTT>Die Option "Pflanzen schneiden" wird bei jedem Spielstart aktiviert.</CutPlantsBeforeBuilding.DefaultModeTT>
+  <CutPlantsBeforeBuilding.OnlyCutters>Blockierende Pflanzen können nur geschnitten werden, wenn dies erlaubt ist.</CutPlantsBeforeBuilding.OnlyCutters>
+  <CutPlantsBeforeBuilding.OnlyCuttersTT>Wenn diese Option aktiviert ist, werden nur Bauern, die Pflanzen schneiden können, blockierende Pflanzen abschneiden.</CutPlantsBeforeBuilding.OnlyCuttersTT>
 </LanguageData>

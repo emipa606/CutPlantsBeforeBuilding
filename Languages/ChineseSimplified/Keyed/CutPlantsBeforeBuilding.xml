@@ -12,4 +12,6 @@
   <CutPlantsBeforeBuilding.DigUpTT>在可能的情况下，指定将植物挖出，而不是砍伐</CutPlantsBeforeBuilding.DigUpTT>
   <CutPlantsBeforeBuilding.DefaultMode>默认情况下切割植物</CutPlantsBeforeBuilding.DefaultMode>
   <CutPlantsBeforeBuilding.DefaultModeTT>切割植物选项将在每次游戏开始时开启。</CutPlantsBeforeBuilding.DefaultModeTT>
+  <CutPlantsBeforeBuilding.OnlyCutters>只有在允许的情况下才能砍伐阻挡植物</CutPlantsBeforeBuilding.OnlyCutters>
+  <CutPlantsBeforeBuilding.OnlyCuttersTT>如果启用，只有具有植物切割功能的棋子才会砍伐阻挡植物</CutPlantsBeforeBuilding.OnlyCuttersTT>
 </LanguageData>

@@ -11,4 +11,6 @@
   <CutPlantsBeforeBuilding.DigUpTT>Au lieu d'être coupées, les plantes seront désignées pour être déterrées si possible.</CutPlantsBeforeBuilding.DigUpTT>
   <CutPlantsBeforeBuilding.DefaultMode>Plantes coupées par défaut sur</CutPlantsBeforeBuilding.DefaultMode>
   <CutPlantsBeforeBuilding.DefaultModeTT>L'option "plantes coupées" sera activée à chaque début de partie.</CutPlantsBeforeBuilding.DefaultModeTT>
+  <CutPlantsBeforeBuilding.OnlyCutters>Les plantes bloquantes ne peuvent être coupées que si elles sont autorisées</CutPlantsBeforeBuilding.OnlyCutters>
+  <CutPlantsBeforeBuilding.OnlyCuttersTT>Si cette option est activée, seuls les pions qui ont la possibilité de couper des plantes couperont les plantes bloquantes.</CutPlantsBeforeBuilding.OnlyCuttersTT>
 </LanguageData>

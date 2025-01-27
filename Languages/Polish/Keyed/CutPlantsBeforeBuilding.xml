@@ -12,4 +12,6 @@
   <CutPlantsBeforeBuilding.DigUpTT>Zamiast przycinania, rośliny będą w miarę możliwości wykopywane</CutPlantsBeforeBuilding.DigUpTT>
   <CutPlantsBeforeBuilding.DefaultMode>Rośliny cięte domyślnie</CutPlantsBeforeBuilding.DefaultMode>
   <CutPlantsBeforeBuilding.DefaultModeTT>Opcja przycinania roślin będzie włączana przy każdym starcie gry.</CutPlantsBeforeBuilding.DefaultModeTT>
+  <CutPlantsBeforeBuilding.OnlyCutters>Rośliny blokujące można ścinać tylko wtedy, gdy jest to dozwolone</CutPlantsBeforeBuilding.OnlyCutters>
+  <CutPlantsBeforeBuilding.OnlyCuttersTT>Jeśli opcja ta jest włączona, tylko pionki z funkcją cięcia roślin będą ścinać blokujące rośliny.</CutPlantsBeforeBuilding.OnlyCuttersTT>
 </LanguageData>

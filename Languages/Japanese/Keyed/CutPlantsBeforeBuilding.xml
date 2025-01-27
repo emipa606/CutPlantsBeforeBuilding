@@ -12,4 +12,6 @@
   <CutPlantsBeforeBuilding.DigUpTT>植物は伐採する代わりに、可能であれば掘り起こすよう指定される。</CutPlantsBeforeBuilding.DigUpTT>
   <CutPlantsBeforeBuilding.DefaultMode>カット植物のデフォルト</CutPlantsBeforeBuilding.DefaultMode>
   <CutPlantsBeforeBuilding.DefaultModeTT>カットプランツオプションは、試合開始ごとにオンになります。</CutPlantsBeforeBuilding.DefaultModeTT>
+  <CutPlantsBeforeBuilding.OnlyCutters>ブロック植物は許可された場合のみカットできる</CutPlantsBeforeBuilding.OnlyCutters>
+  <CutPlantsBeforeBuilding.OnlyCuttersTT>有効な場合、植物伐採を持つポーンだけがブロック植物を伐採する。</CutPlantsBeforeBuilding.OnlyCuttersTT>
 </LanguageData>
