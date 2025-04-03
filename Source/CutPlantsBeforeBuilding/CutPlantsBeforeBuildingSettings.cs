@@ -9,6 +9,7 @@ internal class CutPlantsBeforeBuildingSettings : ModSettings
 {
     public bool DefaultMode = true;
     public bool DigUp;
+    public bool NoInfo;
     public bool OnlyCutters = true;
 
     /// <summary>
@@ -20,5 +21,6 @@ internal class CutPlantsBeforeBuildingSettings : ModSettings
         Scribe_Values.Look(ref DefaultMode, "DefaultMode", true);
         Scribe_Values.Look(ref OnlyCutters, "OnlyCutters", true);
         Scribe_Values.Look(ref DigUp, "DigUp");
+        Scribe_Values.Look(ref NoInfo, "NoInfo");
     }
 }

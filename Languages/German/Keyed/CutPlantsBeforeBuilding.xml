@@ -13,4 +13,6 @@
   <CutPlantsBeforeBuilding.DefaultModeTT>Die Option "Pflanzen schneiden" wird bei jedem Spielstart aktiviert.</CutPlantsBeforeBuilding.DefaultModeTT>
   <CutPlantsBeforeBuilding.OnlyCutters>Blockierende Pflanzen können nur geschnitten werden, wenn dies erlaubt ist.</CutPlantsBeforeBuilding.OnlyCutters>
   <CutPlantsBeforeBuilding.OnlyCuttersTT>Wenn diese Option aktiviert ist, werden nur Bauern, die Pflanzen schneiden können, blockierende Pflanzen abschneiden.</CutPlantsBeforeBuilding.OnlyCuttersTT>
+  <CutPlantsBeforeBuilding.NoInfo>Nicht über ignorierte Pflanzen informieren</CutPlantsBeforeBuilding.NoInfo>
+  <CutPlantsBeforeBuilding.NoInfoTT>Wenn man spezielle Bäume wie den Anima-Baum überspringt, wird das Spiel nicht darüber informieren</CutPlantsBeforeBuilding.NoInfoTT>
 </LanguageData>

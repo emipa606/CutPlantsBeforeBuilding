@@ -14,4 +14,6 @@
   <CutPlantsBeforeBuilding.DefaultModeTT>切割植物选项将在每次游戏开始时开启。</CutPlantsBeforeBuilding.DefaultModeTT>
   <CutPlantsBeforeBuilding.OnlyCutters>只有在允许的情况下才能砍伐阻挡植物</CutPlantsBeforeBuilding.OnlyCutters>
   <CutPlantsBeforeBuilding.OnlyCuttersTT>如果启用，只有具有植物切割功能的棋子才会砍伐阻挡植物</CutPlantsBeforeBuilding.OnlyCuttersTT>
+  <CutPlantsBeforeBuilding.NoInfo>不要告知被忽视的植物</CutPlantsBeforeBuilding.NoInfo>
+  <CutPlantsBeforeBuilding.NoInfoTT>在跳过标记特殊树（如阿尼玛树）时，游戏不会通知相关信息</CutPlantsBeforeBuilding.NoInfoTT>
 </LanguageData>

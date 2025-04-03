@@ -5,9 +5,9 @@ using Verse;
 namespace CutPlantsBeforeBuilding.HarmonyPatches;
 
 [HarmonyPatch(typeof(AutoBuildRoofAreaSetter), "TryGenerateAreaNow")]
-internal class AutoBuildRoofAreaSetter_TryGenerateAreaNow
+public class AutoBuildRoofAreaSetter_TryGenerateAreaNow
 {
-    private static void Postfix(Map ___map, HashSet<IntVec3> ___innerCells)
+    public static void Postfix(Map ___map, HashSet<IntVec3> ___innerCells)
     {
         foreach (var item in ___innerCells)
         {

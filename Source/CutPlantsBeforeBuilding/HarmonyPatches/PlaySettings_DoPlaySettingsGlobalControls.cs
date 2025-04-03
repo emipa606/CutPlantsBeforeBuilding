@@ -6,9 +6,9 @@ using Verse.Sound;
 namespace CutPlantsBeforeBuilding.HarmonyPatches;
 
 [HarmonyPatch(typeof(PlaySettings), nameof(PlaySettings.DoPlaySettingsGlobalControls))]
-internal class PlaySettings_DoPlaySettingsGlobalControls
+public class PlaySettings_DoPlaySettingsGlobalControls
 {
-    private static void Prefix(WidgetRow row, bool worldView)
+    public static void Prefix(WidgetRow row, bool worldView)
     {
         if (MyKeyBindingDefOf.TMB_ToggleAutoDesignatePlantsCutMode.JustPressed)
         {

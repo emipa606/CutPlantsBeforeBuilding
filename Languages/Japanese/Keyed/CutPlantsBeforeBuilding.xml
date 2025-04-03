@@ -14,4 +14,6 @@
   <CutPlantsBeforeBuilding.DefaultModeTT>カットプランツオプションは、試合開始ごとにオンになります。</CutPlantsBeforeBuilding.DefaultModeTT>
   <CutPlantsBeforeBuilding.OnlyCutters>ブロック植物は許可された場合のみカットできる</CutPlantsBeforeBuilding.OnlyCutters>
   <CutPlantsBeforeBuilding.OnlyCuttersTT>有効な場合、植物伐採を持つポーンだけがブロック植物を伐採する。</CutPlantsBeforeBuilding.OnlyCuttersTT>
+  <CutPlantsBeforeBuilding.NoInfo>無視された植物を知らせない</CutPlantsBeforeBuilding.NoInfo>
+  <CutPlantsBeforeBuilding.NoInfoTT>アニマツリーのような特別なツリーをマークするためにスキップする場合、ゲームはそれを通知しません。</CutPlantsBeforeBuilding.NoInfoTT>
 </LanguageData>

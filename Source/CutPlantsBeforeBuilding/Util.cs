@@ -53,6 +53,11 @@ internal class Util
 
         if (notAllowedTrees.Contains(plant.def))
         {
+            if (CutPlantsBeforeBuildingMod.instance.Settings.NoInfo)
+            {
+                return;
+            }
+
             Messages.Message("CutPlantsBeforeBuilding.SpecialTree".Translate(plant.LabelCap), plant,
                 MessageTypeDefOf.RejectInput);
             return;

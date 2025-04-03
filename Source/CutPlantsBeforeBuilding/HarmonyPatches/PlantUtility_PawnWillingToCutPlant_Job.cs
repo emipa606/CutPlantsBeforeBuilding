@@ -5,7 +5,7 @@ using Verse;
 namespace CutPlantsBeforeBuilding.HarmonyPatches;
 
 [HarmonyPatch(typeof(PlantUtility), nameof(PlantUtility.PawnWillingToCutPlant_Job))]
-internal class PlantUtility_PawnWillingToCutPlant_Job
+public class PlantUtility_PawnWillingToCutPlant_Job
 {
     public static void Postfix(Pawn pawn, ref bool __result)
     {

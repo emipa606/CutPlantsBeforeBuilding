@@ -14,4 +14,6 @@
   <CutPlantsBeforeBuilding.DefaultModeTT>Opcja przycinania roślin będzie włączana przy każdym starcie gry.</CutPlantsBeforeBuilding.DefaultModeTT>
   <CutPlantsBeforeBuilding.OnlyCutters>Rośliny blokujące można ścinać tylko wtedy, gdy jest to dozwolone</CutPlantsBeforeBuilding.OnlyCutters>
   <CutPlantsBeforeBuilding.OnlyCuttersTT>Jeśli opcja ta jest włączona, tylko pionki z funkcją cięcia roślin będą ścinać blokujące rośliny.</CutPlantsBeforeBuilding.OnlyCuttersTT>
+  <CutPlantsBeforeBuilding.NoInfo>Nie informuj o ignorowanych roślinach</CutPlantsBeforeBuilding.NoInfo>
+  <CutPlantsBeforeBuilding.NoInfoTT>Podczas przeskakiwania w celu oznaczenia specjalnych drzew, takich jak drzewo Anima, gra nie będzie o tym informować.</CutPlantsBeforeBuilding.NoInfoTT>
 </LanguageData>

@@ -18,6 +18,7 @@ Added mod-settings
 
 - The default on-state
 - Dig up if possible
+- Only allow cutting by pawns with plant cutting enabled
 
 
 
