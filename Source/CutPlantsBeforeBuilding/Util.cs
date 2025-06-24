@@ -27,10 +27,10 @@ internal class Util
             size = thingDef.size;
         }
 
-        DesignatePlants(c, rot, size, map);
+        designatePlants(c, rot, size, map);
     }
 
-    public static void DesignatePlants(IntVec3 c, Rot4 rot, IntVec2 size, Map map)
+    private static void designatePlants(IntVec3 c, Rot4 rot, IntVec2 size, Map map)
     {
         foreach (var item in GenAdj.OccupiedRect(c, rot, size))
         {
@@ -45,7 +45,7 @@ internal class Util
             return;
         }
 
-        var plant = FindBlockingPlant(c, map);
+        var plant = findBlockingPlant(c, map);
         if (plant == null)
         {
             return;
@@ -53,7 +53,7 @@ internal class Util
 
         if (notAllowedTrees.Contains(plant.def))
         {
-            if (CutPlantsBeforeBuildingMod.instance.Settings.NoInfo)
+            if (CutPlantsBeforeBuildingMod.Instance.Settings.NoInfo)
             {
                 return;
             }
@@ -63,13 +63,13 @@ internal class Util
             return;
         }
 
-        DesignatePlant(plant, map);
+        designatePlant(plant, map);
     }
 
-    private static void DesignatePlant(Plant plant, Map map)
+    private static void designatePlant(Plant plant, Map map)
     {
         map.designationManager.RemoveAllDesignationsOn(plant);
-        if (CutPlantsBeforeBuildingMod.instance.Settings.DigUp && canExtractPlant(plant))
+        if (CutPlantsBeforeBuildingMod.Instance.Settings.DigUp && canExtractPlant(plant))
         {
             map.designationManager.AddDesignation(new Designation(plant, DesignationDefOf.ExtractTree));
             return;
@@ -89,7 +89,7 @@ internal class Util
         return plant.def.Minifiable && plant.def.plant.IsTree;
     }
 
-    private static Plant FindBlockingPlant(IntVec3 c, Map map)
+    private static Plant findBlockingPlant(IntVec3 c, Map map)
     {
         var plant = c.GetPlant(map);
         if (plant != null && plant.def.plant.harvestWork >= 200f)

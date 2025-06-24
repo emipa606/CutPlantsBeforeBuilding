@@ -14,7 +14,7 @@ public class PlantUtility_PawnWillingToCutPlant_Job
             return;
         }
 
-        if (!CutPlantsBeforeBuildingMod.instance.Settings.OnlyCutters)
+        if (!CutPlantsBeforeBuildingMod.Instance.Settings.OnlyCutters)
         {
             return;
         }

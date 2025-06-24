@@ -11,7 +11,7 @@ internal static class Main
 
     static Main()
     {
-        AutoDesignatePlantsCutMode = CutPlantsBeforeBuildingMod.instance.Settings.DefaultMode;
+        AutoDesignatePlantsCutMode = CutPlantsBeforeBuildingMod.Instance.Settings.DefaultMode;
         new Harmony("com.tammybee.cutplantsbeforebuilding").PatchAll(Assembly.GetExecutingAssembly());
     }
 }

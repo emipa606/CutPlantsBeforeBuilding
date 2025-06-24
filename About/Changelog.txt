@@ -1,5 +1,8 @@
 # Changelog for CutPlantsBeforeBuilding
 
+1.6.0 - Mod updated for 1.6 and passed autotests
+
+
 1.5.4 - Added setting to not show messages when special trees are skipped
 Used DeepL to update translations for ChineseSimplified, French, German, Japanese, Polish
 

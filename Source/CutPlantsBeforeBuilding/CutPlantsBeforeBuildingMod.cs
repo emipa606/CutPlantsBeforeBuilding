@@ -10,7 +10,7 @@ internal class CutPlantsBeforeBuildingMod : Mod
     /// <summary>
     ///     The instance of the settings to be read by the mod
     /// </summary>
-    public static CutPlantsBeforeBuildingMod instance;
+    public static CutPlantsBeforeBuildingMod Instance;
 
     private static string currentVersion;
 
@@ -20,7 +20,7 @@ internal class CutPlantsBeforeBuildingMod : Mod
     /// <param name="content"></param>
     public CutPlantsBeforeBuildingMod(ModContentPack content) : base(content)
     {
-        instance = this;
+        Instance = this;
         Settings = GetSettings<CutPlantsBeforeBuildingSettings>();
         currentVersion = VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
     }
@@ -46,25 +46,25 @@ internal class CutPlantsBeforeBuildingMod : Mod
     /// <param name="rect"></param>
     public override void DoSettingsWindowContents(Rect rect)
     {
-        var listing_Standard = new Listing_Standard();
-        listing_Standard.Begin(rect);
-        listing_Standard.Gap();
-        listing_Standard.CheckboxLabeled("CutPlantsBeforeBuilding.DefaultMode".Translate(), ref Settings.DefaultMode,
+        var listingStandard = new Listing_Standard();
+        listingStandard.Begin(rect);
+        listingStandard.Gap();
+        listingStandard.CheckboxLabeled("CutPlantsBeforeBuilding.DefaultMode".Translate(), ref Settings.DefaultMode,
             "CutPlantsBeforeBuilding.DefaultModeTT".Translate());
-        listing_Standard.CheckboxLabeled("CutPlantsBeforeBuilding.DigUp".Translate(), ref Settings.DigUp,
+        listingStandard.CheckboxLabeled("CutPlantsBeforeBuilding.DigUp".Translate(), ref Settings.DigUp,
             "CutPlantsBeforeBuilding.DigUpTT".Translate());
-        listing_Standard.CheckboxLabeled("CutPlantsBeforeBuilding.OnlyCutters".Translate(), ref Settings.OnlyCutters,
+        listingStandard.CheckboxLabeled("CutPlantsBeforeBuilding.OnlyCutters".Translate(), ref Settings.OnlyCutters,
             "CutPlantsBeforeBuilding.OnlyCuttersTT".Translate());
-        listing_Standard.CheckboxLabeled("CutPlantsBeforeBuilding.NoInfo".Translate(), ref Settings.NoInfo,
+        listingStandard.CheckboxLabeled("CutPlantsBeforeBuilding.NoInfo".Translate(), ref Settings.NoInfo,
             "CutPlantsBeforeBuilding.NoInfoTT".Translate());
         if (currentVersion != null)
         {
-            listing_Standard.Gap();
+            listingStandard.Gap();
             GUI.contentColor = Color.gray;
-            listing_Standard.Label("CutPlantsBeforeBuilding.CurrentModVersion".Translate(currentVersion));
+            listingStandard.Label("CutPlantsBeforeBuilding.CurrentModVersion".Translate(currentVersion));
             GUI.contentColor = Color.white;
         }
 
-        listing_Standard.End();
+        listingStandard.End();
     }
 }
