@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using RimWorld;
 using Verse;
 
@@ -6,13 +5,6 @@ namespace CutPlantsBeforeBuilding;
 
 internal class Util
 {
-    private static readonly List<ThingDef> notAllowedTrees =
-    [
-        ThingDefOf.Plant_TreeAnima,
-        ThingDefOf.Plant_TreeHarbinger,
-        ThingDefOf.Plant_TreeGauranlen
-    ];
-
     public static void DesignatePlants(IntVec3 c, Rot4 rot, BuildableDef buildableDef, ThingDef stuffDef, Map map)
     {
         if (DebugSettings.godMode || buildableDef.GetStatValueAbstract(StatDefOf.WorkToBuild, stuffDef) == 0f)
@@ -51,7 +43,7 @@ internal class Util
             return;
         }
 
-        if (notAllowedTrees.Contains(plant.def))
+        if (plant.def.plant.treeCategory == TreeCategory.Super)
         {
             if (CutPlantsBeforeBuildingMod.Instance.Settings.NoInfo)
             {

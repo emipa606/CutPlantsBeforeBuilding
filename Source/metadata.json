@@ -4,6 +4,12 @@
   "CanRemove": "0",
   "SocialImageSet": true,
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-24T22:18:34.1028043+02:00",
-  "SearchTags": "plant cutting"
+  "LastXmlCleaning": "2025-08-31T19:46:52.6275054+02:00",
+  "SearchTags": "plant cutting",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 12945,
+  "LinesOfXML": 292,
+  "CodeBaseSize": 65
 }

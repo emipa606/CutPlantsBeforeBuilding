@@ -15,4 +15,5 @@
   <CutPlantsBeforeBuilding.OnlyCuttersTT>Si cette option est activée, seuls les pions qui ont la possibilité de couper des plantes couperont les plantes bloquantes.</CutPlantsBeforeBuilding.OnlyCuttersTT>
   <CutPlantsBeforeBuilding.NoInfo>Ne pas informer des plantes ignorées</CutPlantsBeforeBuilding.NoInfo>
   <CutPlantsBeforeBuilding.NoInfoTT>Lorsque l'on saute pour marquer des arbres spéciaux comme l'arbre Anima, le jeu ne l'indique pas.</CutPlantsBeforeBuilding.NoInfoTT>
+  <!-- {0}:Key code of TMB_ToggleAutoDesignatePlantsCutMode(KeyBindingDef) / {1}: -->
 </LanguageData>

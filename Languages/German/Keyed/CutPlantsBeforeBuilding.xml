@@ -15,4 +15,5 @@
   <CutPlantsBeforeBuilding.OnlyCuttersTT>Wenn diese Option aktiviert ist, werden nur Bauern, die Pflanzen schneiden können, blockierende Pflanzen abschneiden.</CutPlantsBeforeBuilding.OnlyCuttersTT>
   <CutPlantsBeforeBuilding.NoInfo>Nicht über ignorierte Pflanzen informieren</CutPlantsBeforeBuilding.NoInfo>
   <CutPlantsBeforeBuilding.NoInfoTT>Wenn man spezielle Bäume wie den Anima-Baum überspringt, wird das Spiel nicht darüber informieren</CutPlantsBeforeBuilding.NoInfoTT>
+  <!-- {0}:Key code of TMB_ToggleAutoDesignatePlantsCutMode(KeyBindingDef) / {1}: -->
 </LanguageData>
