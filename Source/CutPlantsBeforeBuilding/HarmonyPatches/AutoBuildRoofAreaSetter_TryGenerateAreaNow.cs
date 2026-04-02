@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using HarmonyLib;
 using Verse;
 
@@ -11,15 +12,9 @@ public class AutoBuildRoofAreaSetter_TryGenerateAreaNow
     {
         foreach (var item in ___innerCells)
         {
-            foreach (var item2 in ___map.thingGrid.ThingsAt(item))
+            if (___map.thingGrid.ThingsAt(item).Any(item2 => item2.def.plant is { interferesWithRoof: true }))
             {
-                if (item2.def.plant is not { interferesWithRoof: true })
-                {
-                    continue;
-                }
-
                 Util.DesignatePlant(item, ___map);
-                break;
             }
         }
     }

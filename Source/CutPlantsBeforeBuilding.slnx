@@ -6,4 +6,10 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="CutPlantsBeforeBuilding/CutPlantsBeforeBuilding.csproj" />
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/KeyBindingDefs/">
+    <File Path="../Defs/KeyBindingDefs/KeyBindings.xml" />
+  </Folder>
 </Solution>

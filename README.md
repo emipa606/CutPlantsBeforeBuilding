@@ -1,6 +1,6 @@
 # [Cut plants before building (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3286376165)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of 民火s mod https://steamcommunity.com/sharedfiles/filedetails/?id=1539025677
 
@@ -22,9 +22,9 @@ Added mod-settings
 
 
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 If there is the plant that need to be cut on planned construction site or planned installation site or roof area,
 The MOD will designate to cut the plant.
@@ -58,13 +58,13 @@ Old versions of the mod can be found on Dropbox.
 他のバージョンは以下のURLにあります。
 [Dropbox](https://www.dropbox.com/sh/z3czwl5d7l0cqcd/AADpUgIRopahoG8WgCOY_Pb2a)
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.

@@ -1,3 +1,4 @@
+using System.Linq;
 using HarmonyLib;
 using RimWorld;
 using Verse;
@@ -9,15 +10,9 @@ public class Designator_AreaBuildRoof_DesignateSingleCell
 {
     public static void Postfix(Designator_AreaBuildRoof __instance, IntVec3 c)
     {
-        foreach (var item in __instance.Map.thingGrid.ThingsAt(c))
+        if (__instance.Map.thingGrid.ThingsAt(c).Any(item => item.def.plant is { interferesWithRoof: true }))
         {
-            if (item.def.plant is not { interferesWithRoof: true })
-            {
-                continue;
-            }
-
             Util.DesignatePlant(c, __instance.Map);
-            break;
         }
     }
 }
