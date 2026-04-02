@@ -19,7 +19,7 @@ public class PlantUtility_PawnWillingToCutPlant_Job
             return;
         }
 
-        if (!pawn.workSettings.WorkIsActive(WorkTypeDefOf.PlantCutting))
+        if (pawn.workSettings?.WorkIsActive(WorkTypeDefOf.PlantCutting) == false)
         {
             __result = false;
         }
