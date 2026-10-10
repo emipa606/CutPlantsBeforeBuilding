@@ -6,7 +6,7 @@ using Verse.Sound;
 namespace CutPlantsBeforeBuilding.HarmonyPatches;
 
 [HarmonyPatch(typeof(PlaySettings), nameof(PlaySettings.DoPlaySettingsGlobalControls))]
-public class PlaySettings_DoPlaySettingsGlobalControls
+public static class PlaySettings_DoPlaySettingsGlobalControls
 {
     public static void Prefix(WidgetRow row, bool worldView)
     {

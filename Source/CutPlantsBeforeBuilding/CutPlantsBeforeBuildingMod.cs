@@ -43,11 +43,11 @@ internal class CutPlantsBeforeBuildingMod : Mod
     ///     The settings-window
     ///     For more info: https://rimworldwiki.com/wiki/Modding_Tutorials/ModSettings
     /// </summary>
-    /// <param name="rect"></param>
-    public override void DoSettingsWindowContents(Rect rect)
+    /// <param name="inRect"></param>
+    public override void DoSettingsWindowContents(Rect inRect)
     {
         var listingStandard = new Listing_Standard();
-        listingStandard.Begin(rect);
+        listingStandard.Begin(inRect);
         listingStandard.Gap();
         listingStandard.CheckboxLabeled("CutPlantsBeforeBuilding.DefaultMode".Translate(), ref Settings.DefaultMode,
             "CutPlantsBeforeBuilding.DefaultModeTT".Translate());

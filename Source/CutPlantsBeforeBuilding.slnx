@@ -12,4 +12,7 @@
   <Folder Name="/XML/Defs/KeyBindingDefs/">
     <File Path="../Defs/KeyBindingDefs/KeyBindings.xml" />
   </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/CutPlantsBeforeBuilding.xml" />
+  </Folder>
 </Solution>

@@ -3,7 +3,7 @@ using Verse;
 
 namespace CutPlantsBeforeBuilding;
 
-internal class Util
+internal static class Util
 {
     public static void DesignatePlants(IntVec3 c, Rot4 rot, BuildableDef buildableDef, ThingDef stuffDef, Map map)
     {
