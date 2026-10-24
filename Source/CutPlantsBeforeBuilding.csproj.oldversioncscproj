@@ -1,12 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputPath>..\..\1.5\Assemblies</OutputPath>
-    <TargetFramework>net481</TargetFramework>
+    <OutputPath>..\..\1.6\Assemblies</OutputPath>
+    <TargetFramework>net48</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
-    <FileVersion>1.5.4</FileVersion>
+    <FileVersion>1.6.4</FileVersion>
+    <AssemblyVersion>1.6</AssemblyVersion>
+    <Product>Cut plants before building (Continued)</Product>
+    <Copyright>© 民火 2026 - This mod is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License and MIT license.</Copyright>
+    <Nullable>warnings</Nullable>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
@@ -15,7 +19,7 @@
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Lib.Harmony">
-      <Version>*</Version>
+      <Version>3.0.0-rc.1</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
     <PackageReference Include="Mlie_Rimworld_VersionFromManifest" Version="*" />
